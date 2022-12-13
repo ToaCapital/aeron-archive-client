@@ -24,7 +24,7 @@ add_custom_target(generated_sbe_code
     "-Dsbe.output.dir=${SBE_ARCHIVE_INCLUDE_DIR}"
     "-Dsbe.target.language=cpp"
     "-jar" "${SBE_TOOL_JAR}"
-    "${Aeron_RESOURCES_DIR}/aeron-archive-codecs.xml"
+    "${Aeron_RESOURCES_DIR}/archive/aeron-archive-codecs.xml"
     COMMENT "Generating SBE stubs"
 )
 

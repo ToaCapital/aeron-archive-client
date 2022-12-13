@@ -21,7 +21,7 @@
 namespace aeron {
 namespace archive {
 
-DECLARE_SOURCED_EXCEPTION(ArchiveException);
+AERON_DECLARE_SOURCED_EXCEPTION(ArchiveException, util::ExceptionCategory::EXCEPTION_CATEGORY_ERROR);
 
 }  // namespace archive
 }  // namespace aeron
